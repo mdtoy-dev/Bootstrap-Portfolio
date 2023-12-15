@@ -8,8 +8,8 @@ body {
     background-color: #202020;
 }
 
-h1, p {
-    color: #DEDEDE;
+header {
+    margin: 300px;
 }
 
 nav {
@@ -33,3 +33,12 @@ header img {
     max-width: 600px;
     font-family: Manrope;
 }
+
+#work {
+    margin: 100px auto;
+}
+
+.center { 
+    text-align: center; 
+    width: 100%; 
+} 
