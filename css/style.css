@@ -40,3 +40,9 @@ header img {
     text-align: center; 
     width: 100%; 
 } 
+
+#skills h2:hover,
+.list-inline-item i:hover {
+    color: rgb(255, 208, 0) !important;
+    transition: all 0.2s ease-in-out;
+  }
