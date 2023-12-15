@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020;
+}
+
+h1, p {
+    color: #DEDEDE;
+}
+
+nav {
+    background: rgba(50, 50, 50, 0.70) !important;
+    backdrop-filter: blur(10px);
+}
+
+nav img {
+    width: 136px;
+    height: auto;
+    margin: -60px -20px -40px;
+}
+
+header img {
+    width: 300px;
+    height: auto;
+    border-radius: 400px;
+}
+
+.heading-text {
+    max-width: 600px;
+    font-family: Manrope;
+}
