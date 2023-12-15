@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 body {
@@ -9,11 +10,12 @@ body {
 }
 
 header {
-    margin: 300px;
+    max-width: fit-content;
+    height: 800px;
 }
 
 nav {
-    background: rgba(50, 50, 50, 0.70) !important;
+    background: rgba(50, 50, 50, 0.70);
     backdrop-filter: blur(10px);
 }
 
@@ -32,10 +34,6 @@ header img {
 .heading-text {
     max-width: 600px;
     font-family: Manrope;
-}
-
-#work {
-    margin: 100px auto;
 }
 
 .center { 
